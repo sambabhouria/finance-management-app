@@ -1,4 +1,5 @@
 import { FontAwesome, Ionicons } from '@expo/vector-icons'
+import { Stack } from 'expo-router'
 import React, { useState } from 'react'
 import {
   Image,
@@ -19,6 +20,7 @@ export default function Example() {
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: '#f8f8f8' }}>
+      <Stack.Screen options={{ headerShown: false }} />
       <View style={styles.header}>
         <View style={styles.headerAction}>
           <TouchableOpacity
@@ -45,7 +47,7 @@ export default function Example() {
         </View>
       </View>
 
-      <ScrollView contentContainerStyle={styles.content}>
+      <ScrollView contentContainerStyle={styles.content} style={{ marginBottom: 50 }}>
         <View style={[styles.section, { paddingTop: 4 }]}>
           <Text style={styles.sectionTitle}>Account</Text>
 
@@ -225,7 +227,6 @@ export default function Example() {
             </View>
           </View>
         </View>
-
         <Text style={styles.contentFooter}>App Version 2.24 #50491</Text>
       </ScrollView>
     </SafeAreaView>
@@ -266,6 +267,7 @@ const styles = StyleSheet.create({
     fontWeight: '500',
     textAlign: 'center',
     color: '#a69f9f',
+    marginBottom: 25,
   },
   /** Section */
   section: {
