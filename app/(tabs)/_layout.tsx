@@ -1,5 +1,5 @@
 import Colors from '@/constants/Colors'
-import { AntDesign, FontAwesome, SimpleLineIcons } from '@expo/vector-icons'
+import { AntDesign, FontAwesome, Ionicons, SimpleLineIcons } from '@expo/vector-icons'
 import { Tabs } from 'expo-router'
 import { StatusBar } from 'expo-status-bar'
 import React from 'react'
@@ -17,7 +17,7 @@ const Layout = () => {
             justifyContent: 'center',
             alignSelf: 'center',
             height: 63,
-            marginHorizontal: 120,
+            marginHorizontal: 90,
             paddingHorizontal: 10,
             paddingVertical: 8,
             paddingBottom: 8,
@@ -66,6 +66,22 @@ const Layout = () => {
           }}
         />
         <Tabs.Screen
+          name="search"
+          options={{
+            tabBarIcon: ({ color, size, focused }) => (
+              <View
+                style={{
+                  // padding: 12,
+                  borderRadius: 30,
+                  backgroundColor: focused ? Colors.tintColor : Colors.grey,
+                }}
+              >
+                <Ionicons name="search-outline" size={22} color={color} />
+              </View>
+            ),
+          }}
+        />
+        <Tabs.Screen
           name="profile"
           options={{
             tabBarIcon: ({ color, size, focused }) => (
@@ -77,6 +93,22 @@ const Layout = () => {
                 }}
               >
                 <FontAwesome name="user-o" size={22} color={color} />
+              </View>
+            ),
+          }}
+        />
+        <Tabs.Screen
+          name="settings"
+          options={{
+            tabBarIcon: ({ color, size, focused }) => (
+              <View
+                style={{
+                  // padding: 12,
+                  borderRadius: 30,
+                  backgroundColor: focused ? Colors.tintColor : Colors.grey,
+                }}
+              >
+                <Ionicons name="settings-outline" size={22} color={color} />
               </View>
             ),
           }}

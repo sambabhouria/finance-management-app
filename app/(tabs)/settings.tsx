@@ -70,7 +70,7 @@ export default function Example() {
                 <Text style={styles.profileHandle}>john@example.com</Text>
               </View>
 
-              <FontAwesome color="#bcbcbc" name="chevron-right" size={22} />
+              <FontAwesome color="#bcbcbc" name="chevron-right" size={15} />
             </TouchableOpacity>
           </View>
         </View>
@@ -92,7 +92,7 @@ export default function Example() {
 
                 <Text style={styles.rowValue}>English</Text>
 
-                <FontAwesome color="#bcbcbc" name="chevron-right" size={19} />
+                <FontAwesome color="#bcbcbc" name="chevron-right" size={15} />
               </TouchableOpacity>
             </View>
 
@@ -109,7 +109,7 @@ export default function Example() {
 
                 <Text style={styles.rowValue}>Los Angeles, CA</Text>
 
-                <FontAwesome color="#bcbcbc" name="chevron-right" size={19} />
+                <FontAwesome color="#bcbcbc" name="chevron-right" size={15} />
               </TouchableOpacity>
             </View>
 
@@ -158,7 +158,7 @@ export default function Example() {
 
                 <View style={styles.rowSpacer} />
 
-                <FontAwesome color="#bcbcbc" name="chevron-right" size={19} />
+                <FontAwesome color="#bcbcbc" name="chevron-right" size={15} />
               </TouchableOpacity>
             </View>
 
@@ -173,7 +173,7 @@ export default function Example() {
 
                 <View style={styles.rowSpacer} />
 
-                <FontAwesome color="#bcbcbc" name="chevron-right" size={19} />
+                <FontAwesome color="#bcbcbc" name="chevron-right" size={15} />
               </TouchableOpacity>
             </View>
 
@@ -188,7 +188,7 @@ export default function Example() {
 
                 <View style={styles.rowSpacer} />
 
-                <FontAwesome color="#bcbcbc" name="chevron-right" size={19} />
+                <FontAwesome color="#bcbcbc" name="chevron-right" size={15} />
               </TouchableOpacity>
             </View>
 
@@ -203,7 +203,7 @@ export default function Example() {
 
                 <View style={styles.rowSpacer} />
 
-                <FontAwesome color="#bcbcbc" name="chevron-right" size={19} />
+                <FontAwesome color="#bcbcbc" name="chevron-right" size={15} />
               </TouchableOpacity>
             </View>
           </View>

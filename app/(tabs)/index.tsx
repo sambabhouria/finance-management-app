@@ -39,7 +39,7 @@ const Page = () => {
           header: () => <Header />,
         }}
       />
-      <View style={[styles.container, { paddingTop: 40 }]}>
+      <View style={[styles.container, { paddingTop: 40, paddingBottom: 70 }]}>
         <ScrollView showsVerticalScrollIndicator={false}>
           <View
             style={{
