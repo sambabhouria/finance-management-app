@@ -8,7 +8,7 @@ const Header = () => {
     <SafeAreaView style={styles.container}>
       <View style={styles.wrapper}>
         <View style={styles.userInfoWrapper}>
-          <Image source={{ uri: 'https://i.pravatar.cc/250?u=12' }} style={styles.userImg} />
+          <Image source={{ uri: 'https://i.pravatar.cc/250?u=100' }} style={styles.userImg} />
           <View style={styles.userTxtWrapper}>
             <Text style={[styles.userText, { fontSize: 12 }]}>Hi, Jenny</Text>
             <Text style={[styles.userText, { fontSize: 16 }]}>
