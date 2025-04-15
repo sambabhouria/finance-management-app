@@ -3,6 +3,7 @@
 In this app, you'll learn how to create a finance app UI in react native. I've used expo router v3 to create a custom bottom tab navigator and react native gifted charts package to implement the pie chart graph to display expenses interactively. Also, I've used a custom header component to create the app's header.
 
 ► Screen
+![0](/0.png)
 ![1](/1.png)
 ![2](/2.png)
 ![3](/3.png)
